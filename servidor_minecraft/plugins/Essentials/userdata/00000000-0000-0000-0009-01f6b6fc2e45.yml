@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1732740331704
+  login: 1732740153893
+money: '0'
+last-account-name: .AguilaYT224
+logoutlocation:
+  world: 80602872-daf6-4a55-b811-f28eb4f00a82
+  world-name: world
+  x: 94.98275
+  y: 70.0
+  z: 242.71912
+  yaw: -155.70689392089844
+  pitch: 13.580184936523438
