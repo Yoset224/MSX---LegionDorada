@@ -398,3 +398,60 @@
 [2024-11-27 22:01:28] [INFO   ] Generating org.terraform.structure.ancientcity.AncientCityPopulator at chunk: -12,52 
 [2024-11-27 22:01:28] [INFO   ] Spawning ancient city at: -192,-15,832 
 [2024-11-27 22:01:33] [INFO   ] Spawning sculk... 
+[2024-11-27 22:01:37] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityCenterPlatformPopulator at -192 -15 832 in a room of size 50x50 
+[2024-11-27 22:01:37] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at -213 -15 887 in a room of size 20x26 
+[2024-11-27 22:01:37] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityAltarPopulator at -227 -15 780 in a room of size 23x20 
+[2024-11-27 22:01:37] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at -175 -15 797 in a room of size 24x20 
+[2024-11-27 22:01:37] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at -252 -15 844 in a room of size 25x23 
+[2024-11-27 22:01:37] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityRuinsPlatform at -230 -15 853 in a room of size 16x19 
+[2024-11-27 22:01:37] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at -147 -15 841 in a room of size 17x25 
+[2024-11-27 22:01:37] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at -133 -15 818 in a room of size 23x21 
+[2024-11-27 22:01:37] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at -135 -15 890 in a room of size 17x24 
+[2024-11-27 22:01:37] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at -231 -15 803 in a room of size 19x16 
+[2024-11-27 22:01:37] [INFO   ] Generating org.terraform.structure.small.buriedtreasure.BuriedTreasurePopulator at chunk: -5,47 
+[2024-11-27 22:01:37] [INFO   ] Medium Schematic 
+[2024-11-27 22:01:37] [INFO   ] Medium Schematic 
+[2024-11-27 22:01:37] [INFO   ] Large Schematic 
+[2024-11-27 22:01:37] [INFO   ] Medium Schematic 
+[2024-11-27 22:01:37] [INFO   ] Medium Schematic 
+[2024-11-27 22:01:38] [INFO   ] Medium Schematic 
+[2024-11-27 22:01:38] [INFO   ] Small Schematic 
+[2024-11-27 22:01:42] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: -9,44 
+[2024-11-27 22:01:48] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: 16,39 
+[2024-11-27 22:01:50] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 10,47 
+[2024-11-27 22:01:50] [INFO   ] Spawning Underground Dungeon at 162,25,763 
+[2024-11-27 22:02:00] [INFO   ] Minecart with chest at: 276, 14, 764 
+[2024-11-27 22:02:00] [INFO   ] Minecart with chest at: 294, 29, 787 
+[2024-11-27 22:02:01] [INFO   ] Minecart with chest at: 294, 29, 783 
+[2024-11-27 22:02:01] [INFO   ] Minecart with chest at: 330, 29, 792 
+[2024-11-27 22:02:01] [INFO   ] Minecart with chest at: 288, 29, 824 
+[2024-11-27 22:02:01] [INFO   ] Minecart with chest at: 326, 29, 816 
+[2024-11-27 22:02:02] [INFO   ] Minecart with chest at: 297, 14, 894 
+[2024-11-27 22:02:02] [INFO   ] Generating org.terraform.structure.mineshaft.MineshaftPopulator at chunk: 20,52 
+[2024-11-27 22:02:03] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 23,48 
+[2024-11-27 22:02:03] [INFO   ] Spawning Underground Dungeon at 369,46,772 
+[2024-11-27 22:02:03] [INFO   ] Minecart with chest at: 312, 29, 891 
+[2024-11-27 22:02:03] [INFO   ] Minecart with chest at: 352, 14, 894 
+[2024-11-27 22:02:25] [INFO   ] [0, 0],32 will spawn a vanilla structure, with tryGenerateStructure == true 
+[2024-11-27 22:02:27] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 48,44 
+[2024-11-27 22:02:27] [INFO   ] Spawning Underground Dungeon at 772,12,716 
+[2024-11-27 22:02:41] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 54,51 
+[2024-11-27 22:02:41] [INFO   ] Spawning Drowned Dungeon at 870,822 
+[2024-11-27 22:02:42] [INFO   ] Generating org.terraform.structure.trialchamber.TrialChamberPopulator at chunk: 52,52 
+[2024-11-27 22:02:42] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: 50,55 
+[2024-11-27 22:02:48] [INFO   ] Large Cave at 1344,11,1344 has water level > -13 with populator LargeLushCavePopulator 
+[2024-11-27 22:02:48] [INFO   ] Calculated structure at 64,64 
+[2024-11-27 22:03:22] [INFO   ] Generating org.terraform.structure.caves.LargeCavePopulator at chunk: 52,-44 
+[2024-11-27 22:03:46] [INFO   ] Generating org.terraform.structure.small.buriedtreasure.BuriedTreasurePopulator at chunk: 11,-49 
+[2024-11-27 22:03:46] [INFO   ] Generating org.terraform.structure.small.shipwreck.ShipwreckPopulator at chunk: 11,-44 
+[2024-11-27 22:03:46] [INFO   ] Spawning shipwreck at 184, 19, -696 with rotation of SOUTH 
+[2024-11-27 22:03:54] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: 20,-40 
+[2024-11-27 22:03:56] [INFO   ] Generating org.terraform.structure.villagehouse.VillageHousePopulator at chunk: 20,-44 
+[2024-11-27 22:03:56] [INFO   ] Spawning farmhouse at 320,73,-704 with rotation of EAST 
+[2024-11-27 22:04:25] [INFO   ] Generating org.terraform.structure.small.igloo.IglooPopulator at chunk: -14,-56 
+[2024-11-27 22:04:25] [INFO   ] Placing igloo of size 6 
+[2024-11-27 22:04:29] [INFO   ] Generating org.terraform.structure.caves.LargeCavePopulator at chunk: -12,-44 
+[2024-11-27 22:04:33] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -6,-44 
+[2024-11-27 22:04:33] [INFO   ] Spawning Drowned Dungeon at -89,-700 
+[2024-11-27 22:04:35] [INFO   ] Generating org.terraform.structure.small.shipwreck.ShipwreckPopulator at chunk: -4,-43 
+[2024-11-27 22:04:35] [INFO   ] Spawning shipwreck at -55, 39, -675 with rotation of EAST 
