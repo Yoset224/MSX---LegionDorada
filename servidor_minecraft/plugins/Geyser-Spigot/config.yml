@@ -23,7 +23,7 @@ bedrock:
   clone-remote-port: false
   # The MOTD that will be broadcasted to Minecraft: Bedrock Edition clients. This is irrelevant if "passthrough-motd" is set to true
   # If either of these are empty, the respective string will default to "Geyser"
-  motd1: "Geyser"
+  motd1: "MCPE - AP"
   motd2: "Another Geyser server."
   # The Server Name that will be sent to Minecraft: Bedrock Edition clients. This is visible in both the pause menu and the settings menu.
   server-name: "Geyser"
@@ -53,7 +53,7 @@ remote:
   # Authentication type. Can be offline, online, or floodgate (see https://github.com/GeyserMC/Geyser/wiki/Floodgate).
   # For plugin versions, it's recommended to keep the `address` field to "auto" so Floodgate support is automatically configured.
   # If Floodgate is installed and `address:` is set to "auto", then "auth-type: floodgate" will automatically be used.
-  auth-type: online
+  auth-type: offline
   # Whether to enable PROXY protocol or not while connecting to the server.
   # This is useful only when:
   # 1) Your server supports PROXY protocol (it probably doesn't)
@@ -162,10 +162,10 @@ above-bedrock-nether-building: false
 # Force clients to load all resource packs if there are any.
 # If set to false, it allows the user to connect to the server even if they don't
 # want to download the resource packs.
-force-resource-packs: true
+force-resource-packs: false
 
 # Allows Xbox achievements to be unlocked.
-xbox-achievements-enabled: false
+xbox-achievements-enabled: true
 
 # Whether player IP addresses will be logged by the server.
 log-player-ip-addresses: true
