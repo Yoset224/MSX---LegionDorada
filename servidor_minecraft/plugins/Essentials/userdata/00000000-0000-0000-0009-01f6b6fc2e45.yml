@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1732740331704
-  login: 1732740153893
+  logout: 1732744761258
+  login: 1732744414902
 money: '0'
 last-account-name: .AguilaYT224
 logoutlocation:
   world: 80602872-daf6-4a55-b811-f28eb4f00a82
   world-name: world
-  x: 94.98275
-  y: 70.0
-  z: 242.71912
-  yaw: -155.70689392089844
-  pitch: 13.580184936523438
+  x: 0.5
+  y: 63.33514
+  z: 0.5
+  yaw: -93.90592956542969
+  pitch: 19.250564575195312
+lastlocation:
+  world: 80602872-daf6-4a55-b811-f28eb4f00a82
+  world-name: world
+  x: 99.01077
+  y: 69.0
+  z: 261.18512
+  yaw: -44.67710876464844
+  pitch: 21.839202880859375

@@ -1,241 +1,359 @@
-[20:40:52] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[20:40:52] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[20:40:52] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:40:52] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[20:40:52] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+[21:51:34] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[21:51:34] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[21:51:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:51:35] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[21:51:35] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
  - Chunky (1.4.28), Essentials (2.21.0-dev+129-2ac37d8), Geyser-Spigot (2.5.0-SNAPSHOT), LuckPerms (5.4.146), TerraformGenerator (17.0.1), ViaBackwards (5.1.1), ViaVersion (5.1.1), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
-[20:40:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:40:56] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[20:40:56] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[20:40:57] [ServerMain/INFO]: No existing world data, creating new world
-[20:40:58] [ServerMain/INFO]: Loaded 1337 recipes
-[20:40:58] [ServerMain/INFO]: Loaded 1448 advancements
-[20:40:58] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[20:40:58] [Server thread/INFO]: Loading properties
-[20:40:58] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[20:40:59] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:40:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:40:59] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:41:00] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[20:41:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[20:41:00] [Server thread/INFO]: Default game type: SURVIVAL
-[20:41:00] [Server thread/INFO]: Generating keypair
-[20:41:00] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:41:00] [Server thread/INFO]: Using epoll channel type
-[20:41:00] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:41:00] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[20:41:01] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
-[20:41:01] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
-[20:41:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:41:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[20:41:02] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[20:41:02] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[20:41:03] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
-[20:41:03] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[20:41:04] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[20:41:04] [Server thread/INFO]: [floodgate] Took 716ms to boot Floodgate
-[20:41:04] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v17.0.1
-[20:41:04] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
-[20:41:04] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+129-2ac37d8
-[20:41:04] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
-[20:41:05] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[20:41:05] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[20:41:05] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.1
-[20:41:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:41:05] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
-[20:41:05] [Server thread/INFO]:         __    
-[20:41:05] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
-[20:41:05] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[20:41:05] [Server thread/INFO]: 
-[20:41:05] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:41:05] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:41:05] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:41:05] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:41:06] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1025ms)
-[20:41:06] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v17.0.1
-[20:41:06] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
-[20:41:06] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
-[20:41:06] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.21.3, number: 21.3
-[20:41:06] [Server thread/INFO]: Preparing level "world"
-[20:41:07] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
-[20:41:07] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
-[20:41:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:41:07] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:08] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:08] [Paper Common Worker #0/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
-[20:41:13] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:13] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:13] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:13] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:13] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:13] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:13] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:13] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:13] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:13] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:13] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:14] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:14] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:14] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[20:41:15] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 218.1ms
-[20:41:15] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:15] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:16] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:16] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:17] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:17] [Server thread/INFO]: Preparing spawn area: 2%
-[20:41:18] [Server thread/INFO]: Preparing spawn area: 2%
-[20:41:18] [Server thread/INFO]: Preparing spawn area: 2%
-[20:41:19] [Server thread/INFO]: Preparing spawn area: 4%
-[20:41:19] [Server thread/INFO]: Preparing spawn area: 18%
-[20:41:20] [Server thread/INFO]: Preparing spawn area: 44%
-[20:41:20] [Server thread/INFO]: Preparing spawn area: 57%
-[20:41:20] [Server thread/INFO]: Time elapsed: 13346 ms
-[20:41:20] [Server thread/INFO]: [TerraformGenerator] world loaded.
-[20:41:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:41:20] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:21] [Server thread/INFO]: Time elapsed: 192 ms
-[20:41:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:41:21] [Server thread/INFO]: Preparing spawn area: 0%
-[20:41:21] [Server thread/INFO]: Time elapsed: 371 ms
-[20:41:21] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
-[20:41:21] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
-[20:41:21] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[20:41:21] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
-[20:41:21] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+129-2ac37d8
-[20:41:22] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[20:41:22] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[20:41:22] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[20:41:22] [Server thread/INFO]: [Essentials] Found 1 files to convert...
-[20:41:22] [Server thread/INFO]: [Essentials] Converted 0/1
-[20:41:22] [Server thread/INFO]: [Essentials] Ban format update complete.
-[20:41:22] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[20:41:22] [Server thread/INFO]: [Essentials] Done converting ignore list.
-[20:41:22] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[20:41:22] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
-[20:41:22] [Server thread/INFO]: [Essentials] Done converting mail list.
-[20:41:22] [Server thread/INFO]: [Essentials] #===========================================================================#
-[20:41:22] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
-[20:41:22] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
-[20:41:22] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
-[20:41:22] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
-[20:41:22] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
-[20:41:22] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
-[20:41:22] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
-[20:41:22] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[20:41:22] [Server thread/INFO]: [Essentials] 
-[20:41:22] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
-[20:41:22] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
-[20:41:22] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
-[20:41:22] [Server thread/INFO]: [Essentials] #===========================================================================#
-[20:41:22] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
-[20:41:22] [Server thread/INFO]: [Essentials] #===========================================================================#
-[20:41:22] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
-[20:41:22] [Server thread/INFO]: [Essentials] 
-[20:41:22] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
-[20:41:22] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
-[20:41:22] [Server thread/INFO]: [Essentials] 
-[20:41:22] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
-[20:41:22] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
-[20:41:22] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
-[20:41:22] [Server thread/INFO]: [Essentials]  to us on GitHub:
-[20:41:22] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
-[20:41:22] [Server thread/INFO]: [Essentials] #===========================================================================#
-[20:41:22] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
-[20:41:22] [Server thread/INFO]: [Essentials] Using locale en
-[20:41:22] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[20:41:22] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[20:41:22] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[20:41:22] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[20:41:22] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[20:41:22] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
-[20:41:22] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.1
-[20:41:23] [Server thread/INFO]: [spark] Starting background profiler...
-[20:41:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[20:41:23] [Server thread/INFO]: [Geyser-Spigot] 
-[20:41:23] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b716 (git-master-2ebce9c)
-[20:41:23] [Server thread/INFO]: [Geyser-Spigot] 
-[20:41:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[20:41:27] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 42086
-[20:41:27] [Server thread/INFO]: [Geyser-Spigot] Done (3.741s)! Run /geyser help for help!
-[20:41:27] [Server thread/INFO]: Done preparing level "world" (20.593s)
-[20:41:27] [Server thread/INFO]: Running delayed init tasks
-[20:41:27] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[20:41:27] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[20:41:27] [Server thread/INFO]: Done (36.029s)! For help, type "help"
-[20:41:27] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] You're 12 EssentialsX dev build(s) out of date!
-[20:41:27] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[20:42:32] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username AguilaYT224
-[20:42:32] [localSession-7-2/INFO]: [Geyser-Spigot] AguilaYT224 (logged in as: AguilaYT224) has connected to the Java server
-[20:42:33] [Server thread/INFO]: [floodgate] Floodgate player logged in as .AguilaYT224 joined (UUID: 00000000-0000-0000-0009-01f6b6fc2e45)
-[20:42:33] [Server thread/INFO]: .AguilaYT224 joined the game
-[20:42:33] [Server thread/INFO]: .AguilaYT224[/127.0.0.1:0] logged in with entity id 11 at ([world]-2.5, 65.0, -9.5)
-[20:42:58] [Server thread/INFO]: That player does not exist
-[20:43:15] [Server thread/INFO]: Made .AguilaYT224 a server operator
-[20:43:21] [Server thread/INFO]: .AguilaYT224 issued server command: /gamemode spectator
-[20:43:35] [Server thread/INFO]: .AguilaYT224 issued server command: /gamemode creative
-[20:45:11] [Server thread/INFO]: .AguilaYT224 issued server command: /setworldspawn
-[20:45:11] [Server thread/INFO]: [.AguilaYT224: Set the world spawn point to 95, 70, 245 [0.0]]
-[20:45:31] [localSession-7-2/INFO]: [Geyser-Spigot] AguilaYT224 has disconnected from the Java server because of Bedrock client disconnected
-[20:45:31] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .AguilaYT224 disconnected
-[20:45:31] [Server thread/INFO]: .AguilaYT224 lost connection: Disconnected
-[20:45:31] [Server thread/INFO]: .AguilaYT224 left the game
-[20:51:02] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Andres93310
-[20:51:02] [localSession-7-3/INFO]: [Geyser-Spigot] Andres93310 (logged in as: Andres93310) has connected to the Java server
-[20:51:02] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Andres93310 joined (UUID: 00000000-0000-0000-0009-01f055965ba5)
-[20:51:02] [Server thread/INFO]: .Andres93310 joined the game
-[20:51:02] [Server thread/INFO]: .Andres93310[/127.0.0.1:0] logged in with entity id 1786 at ([world]88.5, 72.0, 249.5)
-[20:53:59] [Server thread/INFO]: .Andres93310 drowned
-[20:54:18] [Server thread/WARN]: .Andres93310 was kicked for floating too long!
-[20:54:18] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Andres93310 disconnected
-[20:54:18] [Server thread/INFO]: .Andres93310 lost connection: Flying is not enabled on this server
-[20:54:18] [localSession-7-3/INFO]: [Geyser-Spigot] Andres93310 has disconnected from the Java server because of No está permitido volar en este servidor
-[20:54:18] [Server thread/INFO]: .Andres93310 left the game
-[21:14:29] [Server thread/INFO]: Stopping the server
-[21:14:29] [Server thread/INFO]: Stopping server
-[21:14:29] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.1.1
-[21:14:29] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.5.0-SNAPSHOT
-[21:14:29] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[21:14:29] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[21:14:29] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+129-2ac37d8
-[21:14:29] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
-[21:14:29] [Server thread/INFO]: [TerraformGenerator] Disabling TerraformGenerator v17.0.1
-[21:14:29] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[21:14:29] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.146
-[21:14:29] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[21:14:29] [Server thread/INFO]: [LuckPerms] Closing storage...
-[21:14:29] [Server thread/INFO]: [LuckPerms] Goodbye!
-[21:14:29] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.1.1
-[21:14:29] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[21:14:29] [Server thread/INFO]: Saving players
-[21:14:29] [WebSocketConnectReadThread-112/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[21:14:29] [Server thread/INFO]: Saving worlds
-[21:14:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Saved 5 block chunks, 254 entity chunks, 0 poi chunks in world 'world' in 0.07s
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[21:14:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[21:14:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[21:14:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[21:14:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:14:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:14:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:14:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:14:29] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[21:14:29] [Server thread/INFO]: All I/O tasks to complete
-[21:14:29] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[21:14:29] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[21:51:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:51:41] [ServerMain/INFO]: Loaded 1337 recipes
+[21:51:41] [ServerMain/INFO]: Loaded 1448 advancements
+[21:51:41] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[21:51:41] [Server thread/INFO]: Loading properties
+[21:51:41] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[21:51:41] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:51:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:51:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:51:42] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[21:51:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[21:51:43] [Server thread/INFO]: Default game type: SURVIVAL
+[21:51:43] [Server thread/INFO]: Generating keypair
+[21:51:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:51:43] [Server thread/INFO]: Using epoll channel type
+[21:51:43] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:51:43] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[21:51:44] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[21:51:44] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[21:51:45] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:51:45] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:51:45] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[21:51:45] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[21:51:46] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
+[21:51:46] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[21:51:46] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[21:51:46] [Server thread/INFO]: [floodgate] Took 711ms to boot Floodgate
+[21:51:46] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v17.0.1
+[21:51:46] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
+[21:51:46] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+129-2ac37d8
+[21:51:46] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
+[21:51:47] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[21:51:47] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[21:51:47] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.1
+[21:51:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:51:47] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
+[21:51:48] [Server thread/INFO]:         __    
+[21:51:48] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
+[21:51:48] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[21:51:48] [Server thread/INFO]: 
+[21:51:48] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:51:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:51:48] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:51:48] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:51:48] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1028ms)
+[21:51:48] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v17.0.1
+[21:51:48] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[21:51:48] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[21:51:48] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.21.3, number: 21.3
+[21:51:49] [Server thread/INFO]: Preparing level "world"
+[21:51:49] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
+[21:51:49] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
+[21:51:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:51:49] [Server thread/INFO]: Preparing spawn area: 0%
+[21:51:50] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[21:51:50] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 337.7ms
+[21:51:50] [Server thread/INFO]: Preparing spawn area: 2%
+[21:51:51] [Server thread/INFO]: Preparing spawn area: 2%
+[21:51:51] [Server thread/INFO]: Time elapsed: 1352 ms
+[21:51:51] [Server thread/INFO]: [TerraformGenerator] world loaded.
+[21:51:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:51:51] [Server thread/INFO]: Preparing spawn area: 0%
+[21:51:51] [Server thread/INFO]: Time elapsed: 231 ms
+[21:51:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:51:51] [Server thread/INFO]: Preparing spawn area: 0%
+[21:51:51] [Server thread/INFO]: Time elapsed: 125 ms
+[21:51:51] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[21:51:51] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.2-1.21.3 (768)
+[21:51:51] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[21:51:51] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
+[21:51:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+129-2ac37d8
+[21:51:52] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:51:52] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:51:52] [Server thread/INFO]: [Essentials] Loaded 42779 items from items.json.
+[21:51:52] [Server thread/INFO]: [Essentials] Using locale en
+[21:51:52] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:51:53] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:51:53] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[21:51:53] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[21:51:53] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[21:51:53] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
+[21:51:53] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.1
+[21:51:53] [Server thread/INFO]: [spark] Starting background profiler...
+[21:51:53] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:51:53] [Server thread/INFO]: [Geyser-Spigot] 
+[21:51:53] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b716 (git-master-2ebce9c)
+[21:51:53] [Server thread/INFO]: [Geyser-Spigot] 
+[21:51:53] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:51:53] [Server thread/WARN]: [Geyser-Spigot] The resource pack GeyserPack2.zip has a file in it that meets or exceeds 80 characters in its path (GeyserOptionalPack/models/entity/armor_stand_armor/armor_stand.chestplate.geo.json, 82 characters long). This will cause problems on some Bedrock platforms. Please rename it to be shorter, or reduce the amount of folders needed to get to the file.
+[21:51:53] [Server thread/WARN]: [Geyser-Spigot] The resource pack GeyserPack2.zip has a file in it that meets or exceeds 80 characters in its path (GeyserOptionalPack/models/entity/armor_stand_armor/armor_stand.leggings.geo.json, 80 characters long). This will cause problems on some Bedrock platforms. Please rename it to be shorter, or reduce the amount of folders needed to get to the file.
+[21:51:54] [Server thread/WARN]: [Geyser-Spigot] The resource pack GeyserPack2.zip has a file in it that meets or exceeds 80 characters in its path (GeyserOptionalPack/render_controllers/zombie_villager_v2.render_controllers.json, 80 characters long). This will cause problems on some Bedrock platforms. Please rename it to be shorter, or reduce the amount of folders needed to get to the file.
+[21:51:54] [Server thread/WARN]: [Geyser-Spigot] The resource pack GeyserPack2.zip has a file in it that meets or exceeds 80 characters in its path (GeyserOptionalPack/render_controllers/skeleton_horse_v1_and_v2.render_controllers.json, 86 characters long). This will cause problems on some Bedrock platforms. Please rename it to be shorter, or reduce the amount of folders needed to get to the file.
+[21:51:58] [Server thread/WARN]: [Geyser-Spigot] The resource pack GeyserPack2.zip has a file in it that meets or exceeds 80 characters in its path (GeyserOptionalPack/models/entity/armor_stand_armor/armor_stand.chestplate.geo.json, 82 characters long). This will cause problems on some Bedrock platforms. Please rename it to be shorter, or reduce the amount of folders needed to get to the file.
+[21:51:58] [Server thread/WARN]: [Geyser-Spigot] The resource pack GeyserPack2.zip has a file in it that meets or exceeds 80 characters in its path (GeyserOptionalPack/models/entity/armor_stand_armor/armor_stand.leggings.geo.json, 80 characters long). This will cause problems on some Bedrock platforms. Please rename it to be shorter, or reduce the amount of folders needed to get to the file.
+[21:51:58] [Server thread/WARN]: [Geyser-Spigot] The resource pack GeyserPack2.zip has a file in it that meets or exceeds 80 characters in its path (GeyserOptionalPack/render_controllers/zombie_villager_v2.render_controllers.json, 80 characters long). This will cause problems on some Bedrock platforms. Please rename it to be shorter, or reduce the amount of folders needed to get to the file.
+[21:51:58] [Server thread/WARN]: [Geyser-Spigot] The resource pack GeyserPack2.zip has a file in it that meets or exceeds 80 characters in its path (GeyserOptionalPack/render_controllers/skeleton_horse_v1_and_v2.render_controllers.json, 86 characters long). This will cause problems on some Bedrock platforms. Please rename it to be shorter, or reduce the amount of folders needed to get to the file.
+[21:51:58] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 42086
+[21:51:58] [Server thread/INFO]: [Geyser-Spigot] Done (4.85s)! Run /geyser help for help!
+[21:51:58] [Server thread/INFO]: Done preparing level "world" (9.758s)
+[21:51:58] [Server thread/INFO]: Running delayed init tasks
+[21:51:58] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[21:51:58] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:51:58] [Server thread/INFO]: Done (25.257s)! For help, type "help"
+[21:51:59] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] You're 12 EssentialsX dev build(s) out of date!
+[21:51:59] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[21:53:33] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username AguilaYT224
+[21:53:33] [localSession-7-2/INFO]: [Geyser-Spigot] AguilaYT224 (logged in as: AguilaYT224) has connected to the Java server
+[21:53:34] [Server thread/INFO]: [floodgate] Floodgate player logged in as .AguilaYT224 joined (UUID: 00000000-0000-0000-0009-01f6b6fc2e45)
+[21:53:34] [Server thread/INFO]: .AguilaYT224 joined the game
+[21:53:34] [Server thread/INFO]: .AguilaYT224[/127.0.0.1:0] logged in with entity id 88 at ([world]94.98275, 70.0, 242.71912)
+[21:55:23] [Server thread/INFO]: .AguilaYT224 has made the advancement [Stone Age]
+[21:55:31] [Paper Common Worker #0/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
+[21:55:58] [Server thread/INFO]: .AguilaYT224 has made the advancement [Monster Hunter]
+[21:57:10] [Server thread/INFO]: .AguilaYT224 issued server command: /tps
+[21:57:42] [Server thread/INFO]: .AguilaYT224 issued server command: /tp 0 100 0
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:42] [Server thread/WARN]: .AguilaYT224 moved too quickly! -98.51077,31.0,-260.68512
+[21:57:55] [Server thread/INFO]: .AguilaYT224 issued server command: /chunky help
+[21:58:10] [Server thread/INFO]: .AguilaYT224 issued server command: /chunky help 2
+[21:58:26] [Server thread/INFO]: .AguilaYT224 issued server command: /chunky radius 1000
+[21:58:35] [Server thread/INFO]: .AguilaYT224 issued server command: /chunky start
+[21:58:35] [ForkJoinPool.commonPool-worker-35/INFO]: [Chunky] Task running for world. Processed: 647 chunks (4.01%), ETA: 0:00:05, Rate: 2901.3 cps, Current: 24, 31
+[21:58:37] [Server thread/INFO]: [Chunky] Task running for world. Processed: 649 chunks (4.02%), ETA: 0:00:45, Rate: 340.7 cps, Current: 25, 24
+[21:58:38] [Server thread/INFO]: [Chunky] Task running for world. Processed: 656 chunks (4.07%), ETA: 0:01:09, Rate: 224.0 cps, Current: 25, 30
+[21:58:39] [Server thread/INFO]: [Chunky] Task running for world. Processed: 670 chunks (4.15%), ETA: 0:01:33, Rate: 166.1 cps, Current: 26, 24
+[21:58:40] [Server thread/INFO]: [Chunky] Task running for world. Processed: 691 chunks (4.28%), ETA: 0:01:57, Rate: 131.9 cps, Current: 27, 31
+[21:58:41] [Server thread/INFO]: [Chunky] Task running for world. Processed: 705 chunks (4.37%), ETA: 0:02:20, Rate: 109.9 cps, Current: 28, 31
+[21:58:42] [Server thread/INFO]: [Chunky] Task running for world. Processed: 722 chunks (4.48%), ETA: 0:02:40, Rate: 96.0 cps, Current: 31, 25
+[21:58:43] [Server thread/INFO]: [Chunky] Task running for world. Processed: 738 chunks (4.58%), ETA: 0:02:57, Rate: 86.6 cps, Current: 25, 17
+[21:58:44] [Server thread/INFO]: [Chunky] Task running for world. Processed: 765 chunks (4.74%), ETA: 0:03:14, Rate: 79.0 cps, Current: 28, 15
+[21:58:45] [Server thread/INFO]: [Chunky] Task running for world. Processed: 773 chunks (4.79%), ETA: 0:03:33, Rate: 71.9 cps, Current: 30, 17
+[21:58:47] [Server thread/INFO]: [Chunky] Task running for world. Processed: 958 chunks (5.94%), ETA: 0:03:06, Rate: 81.2 cps, Current: 31, 13
+[21:58:48] [Server thread/INFO]: [Chunky] Task running for world. Processed: 979 chunks (6.07%), ETA: 0:03:19, Rate: 76.1 cps, Current: 26, 6
+[21:58:49] [Server thread/INFO]: [Chunky] Task running for world. Processed: 994 chunks (6.16%), ETA: 0:03:31, Rate: 71.4 cps, Current: 29, 5
+[21:58:50] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1021 chunks (6.33%), ETA: 0:03:41, Rate: 68.2 cps, Current: 29, 1
+[21:58:51] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1047 chunks (6.49%), ETA: 0:03:51, Rate: 65.2 cps, Current: 35, 6
+[21:58:52] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1075 chunks (6.67%), ETA: 0:04:02, Rate: 62.1 cps, Current: 36, 0
+[21:58:53] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1092 chunks (6.77%), ETA: 0:04:12, Rate: 59.5 cps, Current: 41, 1
+[21:58:54] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1109 chunks (6.88%), ETA: 0:04:22, Rate: 57.3 cps, Current: 42, 1
+[21:58:56] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1141 chunks (7.07%), ETA: 0:04:32, Rate: 54.9 cps, Current: 47, 2
+[21:58:57] [Server thread/INFO]: .AguilaYT224 issued server command: /chunky resumen
+[21:58:57] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1157 chunks (7.17%), ETA: 0:04:43, Rate: 52.8 cps, Current: 47, 7
+[21:58:58] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1172 chunks (7.27%), ETA: 0:04:53, Rate: 51.0 cps, Current: 41, 10
+[21:58:59] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1193 chunks (7.40%), ETA: 0:05:04, Rate: 49.1 cps, Current: 45, 14
+[21:59:00] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1218 chunks (7.55%), ETA: 0:05:13, Rate: 47.6 cps, Current: 32, 8
+[21:59:01] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1283 chunks (7.95%), ETA: 0:05:08, Rate: 48.1 cps, Current: 32, 18
+[21:59:02] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1299 chunks (8.05%), ETA: 0:05:16, Rate: 46.9 cps, Current: 37, 17
+[21:59:04] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1331 chunks (8.25%), ETA: 0:05:20, Rate: 46.2 cps, Current: 39, 18
+[21:59:05] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1358 chunks (8.42%), ETA: 0:09:47, Rate: 25.2 cps, Current: 33, 30
+[21:59:06] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1390 chunks (8.62%), ETA: 0:09:40, Rate: 25.4 cps, Current: 40, 24
+[21:59:07] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1426 chunks (8.84%), ETA: 0:09:17, Rate: 26.4 cps, Current: 40, 30
+[21:59:08] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1438 chunks (8.92%), ETA: 0:09:16, Rate: 26.4 cps, Current: 44, 25
+[21:59:09] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1459 chunks (9.05%), ETA: 0:09:14, Rate: 26.5 cps, Current: 45, 23
+[21:59:10] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1488 chunks (9.23%), ETA: 0:09:00, Rate: 27.1 cps, Current: 47, 29
+[21:59:12] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1541 chunks (9.55%), ETA: 0:08:43, Rate: 27.9 cps, Current: 49, 16
+[21:59:13] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1545 chunks (9.58%), ETA: 0:08:56, Rate: 27.2 cps, Current: 50, 18
+[21:59:14] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1564 chunks (9.70%), ETA: 0:08:57, Rate: 27.1 cps, Current: 51, 21
+[21:59:15] [Server thread/INFO]: .AguilaYT224 issued server command: /chunky info
+[21:59:15] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1593 chunks (9.88%), ETA: 0:08:45, Rate: 27.7 cps, Current: 55, 16
+[21:59:16] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1617 chunks (10.03%), ETA: 0:10:54, Rate: 22.2 cps, Current: 51, 24
+[21:59:17] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1636 chunks (10.14%), ETA: 0:10:54, Rate: 22.1 cps, Current: 50, 30
+[21:59:18] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1653 chunks (10.25%), ETA: 0:10:53, Rate: 22.1 cps, Current: 57, 25
+[21:59:20] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1681 chunks (10.42%), ETA: 0:10:52, Rate: 22.1 cps, Current: 56, 30
+[21:59:21] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1695 chunks (10.51%), ETA: 0:11:03, Rate: 21.8 cps, Current: 59, 30
+[21:59:21] [localSession-7-2/INFO]: [Geyser-Spigot] AguilaYT224 has disconnected from the Java server because of Bedrock client disconnected
+[21:59:21] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .AguilaYT224 disconnected
+[21:59:21] [Server thread/INFO]: .AguilaYT224 lost connection: Disconnected
+[21:59:21] [Server thread/INFO]: .AguilaYT224 left the game
+[21:59:22] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1719 chunks (10.66%), ETA: 0:11:01, Rate: 21.8 cps, Current: 62, 28
+[21:59:23] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1736 chunks (10.76%), ETA: 0:11:00, Rate: 21.8 cps, Current: 63, 30
+[21:59:24] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1782 chunks (11.05%), ETA: 0:10:31, Rate: 22.7 cps, Current: 62, 18
+[21:59:25] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1793 chunks (11.12%), ETA: 0:10:44, Rate: 22.2 cps, Current: 61, 14
+[21:59:26] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1809 chunks (11.22%), ETA: 0:10:44, Rate: 22.2 cps, Current: 61, 10
+[21:59:27] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1845 chunks (11.44%), ETA: 0:10:22, Rate: 22.9 cps, Current: 56, 14
+[21:59:29] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1856 chunks (11.51%), ETA: 0:10:33, Rate: 22.5 cps, Current: 55, 14
+[21:59:30] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1873 chunks (11.61%), ETA: 0:10:40, Rate: 22.3 cps, Current: 48, 13
+[21:59:31] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1921 chunks (11.91%), ETA: 0:10:59, Rate: 21.5 cps, Current: 55, 7
+[21:59:32] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1941 chunks (12.03%), ETA: 0:11:00, Rate: 21.5 cps, Current: 50, 5
+[21:59:33] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1970 chunks (12.21%), ETA: 0:11:01, Rate: 21.4 cps, Current: 49, 1
+[21:59:35] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1998 chunks (12.39%), ETA: 0:10:56, Rate: 21.5 cps, Current: 60, 7
+[21:59:36] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2030 chunks (12.59%), ETA: 0:10:56, Rate: 21.5 cps, Current: 62, 5
+[21:59:37] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2040 chunks (12.65%), ETA: 0:11:22, Rate: 20.6 cps, Current: 63, 4
+[21:59:38] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2055 chunks (12.74%), ETA: 0:11:34, Rate: 20.3 cps, Current: 33, -28
+[21:59:40] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2062 chunks (12.78%), ETA: 0:12:04, Rate: 19.4 cps, Current: 35, -28
+[21:59:41] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2082 chunks (12.91%), ETA: 0:12:34, Rate: 18.6 cps, Current: 32, -25
+[21:59:42] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2100 chunks (13.02%), ETA: 0:12:09, Rate: 19.2 cps, Current: 37, -31
+[21:59:43] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2117 chunks (13.13%), ETA: 0:12:18, Rate: 19.0 cps, Current: 43, -30
+[21:59:44] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2152 chunks (13.34%), ETA: 0:12:04, Rate: 19.3 cps, Current: 40, -25
+[21:59:45] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2183 chunks (13.53%), ETA: 0:11:53, Rate: 19.5 cps, Current: 42, -23
+[21:59:46] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2209 chunks (13.70%), ETA: 0:11:43, Rate: 19.8 cps, Current: 47, -23
+[21:59:47] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2237 chunks (13.87%), ETA: 0:11:27, Rate: 20.2 cps, Current: 47, -18
+[21:59:48] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2282 chunks (14.15%), ETA: 0:11:04, Rate: 20.8 cps, Current: 36, -19
+[21:59:49] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2312 chunks (14.33%), ETA: 0:10:53, Rate: 21.1 cps, Current: 32, -21
+[21:59:51] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2335 chunks (14.48%), ETA: 0:10:43, Rate: 21.4 cps, Current: 39, -14
+[21:59:52] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2357 chunks (14.61%), ETA: 0:10:44, Rate: 21.4 cps, Current: 34, -9
+[21:59:53] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2408 chunks (14.93%), ETA: 0:10:34, Rate: 21.6 cps, Current: 37, -3
+[21:59:54] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2449 chunks (15.18%), ETA: 0:10:03, Rate: 22.7 cps, Current: 41, -7
+[21:59:55] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2482 chunks (15.39%), ETA: 0:09:45, Rate: 23.3 cps, Current: 45, -7
+[21:59:56] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2520 chunks (15.62%), ETA: 0:09:33, Rate: 23.7 cps, Current: 41, -12
+[21:59:57] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2567 chunks (15.92%), ETA: 0:09:05, Rate: 24.9 cps, Current: 49, -16
+[21:59:58] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2569 chunks (15.93%), ETA: 0:09:26, Rate: 23.9 cps, Current: 50, -15
+[22:00:00] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2608 chunks (16.17%), ETA: 0:09:06, Rate: 24.7 cps, Current: 53, -16
+[22:00:01] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2630 chunks (16.31%), ETA: 0:09:22, Rate: 24.0 cps, Current: 55, -11
+[22:00:02] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2690 chunks (16.68%), ETA: 0:08:45, Rate: 25.6 cps, Current: 56, -7
+[22:00:03] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2721 chunks (16.87%), ETA: 0:08:42, Rate: 25.7 cps, Current: 61, -2
+[22:00:04] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2749 chunks (17.04%), ETA: 0:08:41, Rate: 25.7 cps, Current: 61, -9
+[22:00:05] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2788 chunks (17.29%), ETA: 0:08:35, Rate: 25.9 cps, Current: 59, -13
+[22:00:06] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2810 chunks (17.42%), ETA: 0:08:21, Rate: 26.6 cps, Current: 63, -13
+[22:00:07] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2820 chunks (17.48%), ETA: 0:08:18, Rate: 26.7 cps, Current: 61, -20
+[22:00:08] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2848 chunks (17.66%), ETA: 0:08:18, Rate: 26.6 cps, Current: 60, -23
+[22:00:09] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2883 chunks (17.87%), ETA: 0:07:57, Rate: 27.7 cps, Current: 54, -18
+[22:00:10] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2911 chunks (18.05%), ETA: 0:07:53, Rate: 27.9 cps, Current: 48, -22
+[22:00:12] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2949 chunks (18.28%), ETA: 0:07:40, Rate: 28.6 cps, Current: 54, -25
+[22:00:13] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2975 chunks (18.45%), ETA: 0:07:30, Rate: 29.2 cps, Current: 55, -27
+[22:00:14] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3016 chunks (18.70%), ETA: 0:07:30, Rate: 29.1 cps, Current: 56, -31
+[22:00:15] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3057 chunks (18.95%), ETA: 0:07:27, Rate: 29.2 cps, Current: 61, -30
+[22:00:17] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3067 chunks (19.02%), ETA: 0:07:39, Rate: 28.4 cps, Current: 63, -29
+[22:00:18] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3080 chunks (19.10%), ETA: 0:07:48, Rate: 27.9 cps, Current: 62, -32
+[22:00:19] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3092 chunks (19.17%), ETA: 0:08:10, Rate: 26.6 cps, Current: 3, -31
+[22:00:20] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3120 chunks (19.34%), ETA: 0:08:11, Rate: 26.5 cps, Current: 6, -32
+[22:00:21] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3144 chunks (19.49%), ETA: 0:08:13, Rate: 26.3 cps, Current: 8, -29
+[22:00:22] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3179 chunks (19.71%), ETA: 0:08:18, Rate: 26.0 cps, Current: 14, -27
+[22:00:24] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3705 chunks (22.97%), ETA: 0:04:55, Rate: 42.1 cps, Current: 23, -15
+[22:00:25] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3747 chunks (23.23%), ETA: 0:04:54, Rate: 42.1 cps, Current: 24, -8
+[22:00:26] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3811 chunks (23.63%), ETA: 0:04:48, Rate: 42.7 cps, Current: 31, -13
+[22:00:28] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3856 chunks (23.91%), ETA: 0:04:39, Rate: 44.0 cps, Current: 31, -24
+[22:00:29] [Server thread/INFO]: [Chunky] Task running for world. Processed: 3943 chunks (24.45%), ETA: 0:04:25, Rate: 45.9 cps, Current: 25, -24
+[22:00:30] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4001 chunks (24.81%), ETA: 0:04:17, Rate: 47.2 cps, Current: 23, -26
+[22:00:31] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4028 chunks (24.97%), ETA: 0:04:22, Rate: 46.1 cps, Current: 24, -26
+[22:00:34] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4097 chunks (25.40%), ETA: 0:04:25, Rate: 45.4 cps, Current: -30, -27
+[22:00:35] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4118 chunks (25.53%), ETA: 0:04:30, Rate: 44.5 cps, Current: -32, -30
+[22:00:36] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4161 chunks (25.80%), ETA: 0:04:24, Rate: 45.2 cps, Current: -23, -31
+[22:00:37] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4179 chunks (25.91%), ETA: 0:04:23, Rate: 45.4 cps, Current: -21, -31
+[22:00:38] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4229 chunks (26.22%), ETA: 0:04:17, Rate: 46.2 cps, Current: -23, -24
+[22:00:39] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4294 chunks (26.62%), ETA: 0:04:10, Rate: 47.2 cps, Current: -25, -19
+[22:00:40] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4339 chunks (26.90%), ETA: 0:04:06, Rate: 47.9 cps, Current: -31, -21
+[22:00:41] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4367 chunks (27.08%), ETA: 0:04:06, Rate: 47.7 cps, Current: -25, -15
+[22:00:42] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4391 chunks (27.22%), ETA: 0:04:06, Rate: 47.7 cps, Current: -30, -12
+[22:00:43] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4409 chunks (27.34%), ETA: 0:04:08, Rate: 47.1 cps, Current: -31, -8
+[22:00:44] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4428 chunks (27.45%), ETA: 0:04:11, Rate: 46.6 cps, Current: -29, -5
+[22:00:45] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4519 chunks (28.02%), ETA: 0:03:56, Rate: 49.1 cps, Current: -27, -5
+[22:00:47] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4929 chunks (30.56%), ETA: 0:02:59, Rate: 62.3 cps, Current: -6, -21
+[22:00:48] [Server thread/INFO]: [Chunky] Task running for world. Processed: 4940 chunks (30.63%), ETA: 0:02:58, Rate: 62.6 cps, Current: -16, -21
+[22:00:49] [Server thread/INFO]: [Chunky] Task running for world. Processed: 5015 chunks (31.09%), ETA: 0:02:50, Rate: 65.3 cps, Current: -16, -32
+[22:00:50] [Server thread/INFO]: [Chunky] Task running for world. Processed: 5058 chunks (31.36%), ETA: 0:02:47, Rate: 66.3 cps, Current: -13, -32
+[22:00:51] [Server thread/INFO]: [Chunky] Task running for world. Processed: 5121 chunks (31.75%), ETA: 0:02:43, Rate: 67.5 cps, Current: -30, 0
+[22:00:52] [Server thread/INFO]: [Chunky] Task running for world. Processed: 5125 chunks (31.78%), ETA: 0:03:05, Rate: 59.2 cps, Current: -32, 1
+[22:00:53] [Server thread/INFO]: [Chunky] Task running for world. Processed: 5127 chunks (31.79%), ETA: 0:03:46, Rate: 48.6 cps, Current: -30, 1
+[22:00:54] [Server thread/INFO]: [Chunky] Task running for world. Processed: 5320 chunks (32.98%), ETA: 0:03:20, Rate: 53.9 cps, Current: -26, 8
+[22:00:56] [Server thread/INFO]: [Chunky] Task running for world. Processed: 5362 chunks (33.24%), ETA: 0:03:23, Rate: 53.0 cps, Current: -31, 10
+[22:00:57] [Server thread/INFO]: [Chunky] Task running for world. Processed: 5390 chunks (33.42%), ETA: 0:03:23, Rate: 52.8 cps, Current: -26, 20
+[22:00:58] [Server thread/INFO]: [Chunky] Task running for world. Processed: 5406 chunks (33.52%), ETA: 0:03:32, Rate: 50.4 cps, Current: -27, 20
+[22:01:00] [Server thread/INFO]: [Chunky] Task running for world. Processed: 5436 chunks (33.70%), ETA: 0:03:41, Rate: 48.2 cps, Current: -30, 24
+[22:01:01] [Server thread/INFO]: [Chunky] Task running for world. Processed: 5453 chunks (33.81%), ETA: 0:03:38, Rate: 48.8 cps, Current: -31, 26
+[22:01:02] [ForkJoinPool.commonPool-worker-20/INFO]: [Chunky] Task running for world. Processed: 5914 chunks (36.67%), ETA: 0:02:42, Rate: 63.0 cps, Current: -12, 12
+[22:01:04] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6145 chunks (38.10%), ETA: 0:02:26, Rate: 68.3 cps, Current: -32, 32
+[22:01:05] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6149 chunks (38.12%), ETA: 0:02:26, Rate: 68.1 cps, Current: -30, 33
+[22:01:06] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6176 chunks (38.29%), ETA: 0:02:27, Rate: 67.7 cps, Current: -26, 34
+[22:01:07] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6209 chunks (38.50%), ETA: 0:02:25, Rate: 68.0 cps, Current: -24, 32
+[22:01:08] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6225 chunks (38.60%), ETA: 0:02:27, Rate: 67.0 cps, Current: -23, 35
+[22:01:09] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6277 chunks (38.92%), ETA: 0:02:28, Rate: 66.1 cps, Current: -22, 40
+[22:01:10] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6300 chunks (39.06%), ETA: 0:02:30, Rate: 65.2 cps, Current: -20, 43
+[22:01:11] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6312 chunks (39.13%), ETA: 0:02:31, Rate: 64.8 cps, Current: -24, 44
+[22:01:12] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6333 chunks (39.26%), ETA: 0:02:28, Rate: 66.2 cps, Current: -17, 44
+[22:01:14] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6359 chunks (39.43%), ETA: 0:02:27, Rate: 66.3 cps, Current: -25, 47
+[22:01:15] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6396 chunks (39.66%), ETA: 0:02:30, Rate: 64.5 cps, Current: -31, 48
+[22:01:16] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6419 chunks (39.80%), ETA: 0:03:09, Rate: 51.2 cps, Current: -32, 50
+[22:01:17] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6434 chunks (39.89%), ETA: 0:03:08, Rate: 51.3 cps, Current: -26, 51
+[22:01:18] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6452 chunks (40.00%), ETA: 0:03:16, Rate: 49.3 cps, Current: -31, 54
+[22:01:19] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6470 chunks (40.11%), ETA: 0:03:19, Rate: 48.5 cps, Current: -32, 55
+[22:01:21] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6505 chunks (40.33%), ETA: 0:03:25, Rate: 46.9 cps, Current: -24, 56
+[22:01:22] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6535 chunks (40.52%), ETA: 0:03:20, Rate: 47.8 cps, Current: -22, 57
+[22:01:23] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6549 chunks (40.60%), ETA: 0:03:19, Rate: 48.0 cps, Current: -21, 60
+[22:01:24] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6578 chunks (40.78%), ETA: 0:03:44, Rate: 42.5 cps, Current: -21, 63
+[22:01:25] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6615 chunks (41.01%), ETA: 0:03:43, Rate: 42.6 cps, Current: -23, 52
+[22:01:26] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6657 chunks (41.27%), ETA: 0:03:39, Rate: 43.2 cps, Current: -16, 49
+[22:01:27] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6662 chunks (41.30%), ETA: 0:03:43, Rate: 42.3 cps, Current: -15, 49
+[22:01:29] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6676 chunks (41.39%), ETA: 0:03:41, Rate: 42.7 cps, Current: -12, 55
+[22:01:30] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6694 chunks (41.50%), ETA: 0:03:34, Rate: 44.0 cps, Current: -16, 53
+[22:01:31] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6720 chunks (41.66%), ETA: 0:03:37, Rate: 43.3 cps, Current: -9, 55
+[22:01:32] [Server thread/INFO]: [Chunky] Task running for world. Processed: 6741 chunks (41.79%), ETA: 0:05:37, Rate: 27.8 cps, Current: -15, 60
